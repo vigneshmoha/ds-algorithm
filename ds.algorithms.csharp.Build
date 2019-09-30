@@ -3,7 +3,7 @@
   <PropertyGroup>
     <WorkingFolder>$(MSBuildProjectDirectory)</WorkingFolder>    
     <Configuration>Debug</Configuration>
-    <SolutionFile>src\ds.algorithms.sln</SolutionFile>
+    <SolutionFile>src\ds.algorithms.csharp.sln</SolutionFile>
   </PropertyGroup>  
   
   <Target Name="BuildAll" DependsOnTargets="Compile;Test" />  
@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <TestAssemblies
-      Include="**\bin\$(Configuration)\*Tests*.dll" />
+      Include="src\**\bin\$(Configuration)\*Tests*.dll" />
   </ItemGroup>
 
   <Target Name="Test">
