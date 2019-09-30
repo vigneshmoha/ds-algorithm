@@ -1,5 +1,10 @@
 language: csharp
+dist: trusty
+mono: none
+dotnet: 2.2.104
 install:
-  - nuget restore src/ds.algorithms.csharp.sln
+- dotnet restore
 script:
-  - msbuild ds.algorithms.csharp.Build /t:BuildAll
+- dotnet clean src/ds.algorithms.csharp.sln
+- dotnet build src/ds.algorithms.csharp.sln
+- dotnet test src/ds.algorithms.csharp.tests
