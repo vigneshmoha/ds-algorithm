@@ -3,7 +3,7 @@
   <PropertyGroup>
     <WorkingFolder>$(MSBuildProjectDirectory)</WorkingFolder>    
     <Configuration>Debug</Configuration>
-    <SolutionFile>ds.algorithms.sln</SolutionFile>
+    <SolutionFile>src\ds.algorithms.sln</SolutionFile>
   </PropertyGroup>  
   
   <Target Name="BuildAll" DependsOnTargets="Compile;Test" />  
