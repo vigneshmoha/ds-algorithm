@@ -3,7 +3,7 @@ dist: xenial
 mono: none
 dotnet: 2.2.104
 install:
-- dotnet restore
+- dotnet restore src/ds.algorithms.csharp.sln
 script:
 - dotnet clean src/ds.algorithms.csharp.sln
 - dotnet build src/ds.algorithms.csharp.sln
