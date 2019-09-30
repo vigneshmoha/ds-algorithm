@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ds.algorithms.DataStructures
+namespace ds.algorithms.csharp.DataStructures
 {
     public class CustomList<T>
     {

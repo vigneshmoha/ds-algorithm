@@ -1,8 +1,7 @@
-using System;
-using ds.algorithms.DataStructures;
+using ds.algorithms.csharp.DataStructures;
 using Xunit;
 
-namespace ds.algorithms.tests
+namespace ds.algorithms.csharp.tests
 {
     public class CustomListTests
     {

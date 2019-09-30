@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ds.algorithms\ds.algorithms.csproj" />
+    <ProjectReference Include="..\ds.algorithms.csharp\ds.algorithms.csharp.csproj" />
   </ItemGroup>
 
 </Project>

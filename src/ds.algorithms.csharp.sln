@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ds.algorithms", "ds.algorithms\ds.algorithms.csproj", "{F7D2CA61-1314-4A3D-A694-3114B3B58A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.algorithms.csharp", "ds.algorithms.csharp\ds.algorithms.csharp.csproj", "{F7D2CA61-1314-4A3D-A694-3114B3B58A35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8B25599B-4F08-408D-954B-59BAFD7840A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ds.algorithms.tests", "ds.algorithms.tests\ds.algorithms.tests.csproj", "{27449351-626F-43BA-BC8F-851018C47DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ds.algorithms.csharp.tests", "ds.algorithms.csharp.tests\ds.algorithms.csharp.tests.csproj", "{27449351-626F-43BA-BC8F-851018C47DF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DA87CEF-D7B6-4B0D-BBCB-2213131169CE}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		ds.algorithms.Build = ds.algorithms.Build
+		ds.algorithms.csharp.Build = ds.algorithms.csharp.Build
 	EndProjectSection
 EndProject
 Global
