@@ -1,5 +1,5 @@
 language: csharp
 install:
-  - nuget restore ds.algorithms.csharp.sln
+  - nuget restore src/ds.algorithms.csharp.sln
 script:
   - msbuild ds.algorithms.csharp.Build /t:BuildAll
