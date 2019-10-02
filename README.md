@@ -2,4 +2,4 @@
 
 Custom implementation of data structures and knowns algorithms using C#
 
-[![Build Status](https://travis-ci.com/vigneshmoha/ds-algorithm.svg)](https://travis-ci.com/vigneshmoha/ds-algorithm)
+[![Build Status](https://travis-ci.com/vigneshmoha/ds-algorithm-csharp.svg)](https://travis-ci.com/vigneshmoha/ds-algorithm-csharp)
