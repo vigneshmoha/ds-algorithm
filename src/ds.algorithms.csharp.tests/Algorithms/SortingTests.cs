@@ -23,6 +23,14 @@ namespace ds.algorithms.csharp.tests.Algorithms
             Assert.Equal(expectedArray, outputArray);
         }
 
+        [Theory]
+        [MemberData(nameof(Data))]
+        public void HeapSort_SortData_and_Assert(int[] inputArray, int[] expectedArray)
+        {
+            var outputArray = SelectionSort.Sort(inputArray);
+            Assert.Equal(expectedArray, outputArray);
+        }
+
         public static TheoryData<int[], int[]> Data =>
             new TheoryData<int[], int[]>
             {

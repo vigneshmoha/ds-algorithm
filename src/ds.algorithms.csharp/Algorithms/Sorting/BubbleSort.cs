@@ -6,6 +6,7 @@ namespace ds.algorithms.csharp.Algorithms.Sorting
 {
     public static class BubbleSort
     {
+        // Compare and swap the adjacent element if they are in wrong order
         public static int[] Sort(int[] inputArray)
         {
             for(int i = 0; i < inputArray.Length - 1; i++)

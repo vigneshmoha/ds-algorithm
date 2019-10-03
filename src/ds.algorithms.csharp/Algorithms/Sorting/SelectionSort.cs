@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ds.algorithms.csharp.Algorithms.Sorting
+﻿namespace ds.algorithms.csharp.Algorithms.Sorting
 {
     public static class SelectionSort
     {
+        // Select the minimum value and move it to begining of the array
         public static int[] Sort(int[] inputArray)
         {
             for(int i = 0; i < inputArray.Length; i++)
